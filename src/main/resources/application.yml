@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/testdb?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    druid:
+      db-type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+
+server:
+  servlet:
+    context-path: /sell
+
+wechat:
+  #公众账号，授权
+  myAppId: wxd898fcb01713c658
+  myAppSecret:
+
+  #开放平台，买家扫码登录用
+  openAppId:
+  openAppSecret:
+    #支付/商户号
+  mchId : 1483469312
+  mchKey : 098F6BCD4621D373CADE4E832627B4F6
+  keyPath : /Users/chenglliu/github_project/sell/doc/h5.p12
+  notifyUrl : http://wxsells.nat100.top/sell/pay/notify
+  
+
+
+
