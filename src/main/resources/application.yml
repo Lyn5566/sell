@@ -20,13 +20,20 @@ wechat:
   myAppSecret:
 
   #开放平台，买家扫码登录用
-  openAppId:
-  openAppSecret:
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
     #支付/商户号
   mchId : 1483469312
   mchKey : 098F6BCD4621D373CADE4E832627B4F6
   keyPath : /Users/chenglliu/github_project/sell/doc/h5.p12
   notifyUrl : http://wxsells.nat100.top/sell/pay/notify
+
+projecturl:
+  wxMpAuthorize: http://sell.springboot.cn
+  wxOpenAuthorize: http://sell.springboot.cn
+  sell:
+
+
   
 
 

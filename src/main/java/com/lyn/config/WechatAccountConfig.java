@@ -8,8 +8,13 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "wechat")
 @Data
 public class WechatAccountConfig {
-
+    /**
+     * 公众平台使用的应用id
+     */
     private String myAppId;
+    /**
+     * 公众平台使用的应用密钥
+     */
     private String myAppSecret;
     /**
      * 商户号
@@ -30,4 +35,12 @@ public class WechatAccountConfig {
      * 支付完成后的异步通知地址
      */
     private String notifyUrl;
+    /**
+     * 开放平台id
+     */
+    private String OpenAppId;
+    /**
+     * 开放平台密钥
+     */
+    private String OpenAppSecret;
 }
