@@ -6,7 +6,7 @@ import lombok.Data;
  * http最外层请求
  */
 @Data
-public class ResultVO<T> {
+public class ResultVO<T>{
     //错误码
     private Integer code;
     //错误信息
